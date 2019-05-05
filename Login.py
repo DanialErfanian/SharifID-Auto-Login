@@ -4,7 +4,7 @@ from selenium import webdriver
 username = "danial.erfanian"
 password = "enter your password :)"
 
-driver = webdriver.Chrome(os.getcwd() + "/chromedriver")
+driver = webdriver.Chrome(os.path.dirname(os.path.abspath(__file__)) + "/chromedriver")
 
 try:
     driver.get("https://net2.sharif.edu/login")
