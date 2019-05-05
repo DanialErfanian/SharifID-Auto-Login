@@ -1,9 +1,10 @@
+import os
 from selenium import webdriver
 
 username = "danial.erfanian"
 password = "enter your password :)"
 
-driver = webdriver.Chrome("/home/danial/PycharmProjects/SharifID-Auto-Login/chromedriver")
+driver = webdriver.Chrome(os.getcwd() + "/chromedriver")
 
 try:
     driver.get("https://net2.sharif.edu/login")
