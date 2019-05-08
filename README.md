@@ -5,7 +5,7 @@ first you need to fill password and username fields in Login.py file
 
 install the requirments:
 ```
-pip install requirments -r
+pip3 install -r requirements.txt
 ```
 
 Login script:
